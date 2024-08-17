@@ -59,6 +59,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contacts">Contacts</a>
                     </li>     
+                    <li class="nav-item">
+                        <a class="nav-link" href="/article/show">Articles</a>
+                    </li>     
                 </ul>
             </div>
             <div class="navbar-nav d-flex justify-content-end">
