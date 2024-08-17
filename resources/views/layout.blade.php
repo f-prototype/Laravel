@@ -12,12 +12,14 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             display: flex;
             flex-direction:column;
             min-height:100vh;
+            font-family: 'Nunito', sans-serif;
         }
         main {
             flex: 1 0 auto;
@@ -35,6 +37,10 @@
         footer h2, footer p {
             margin: 0;
         } 
+
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
   <body>
@@ -60,7 +66,10 @@
                         <a class="nav-link" href="contacts">Contacts</a>
                     </li>     
                     <li class="nav-item">
-                        <a class="nav-link" href="/article/show">Articles</a>
+                        <a class="nav-link" href="/article">Articles</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link" href="/article/create">Create articles</a>
                     </li>     
                 </ul>
             </div>
