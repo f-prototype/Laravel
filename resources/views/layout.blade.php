@@ -64,13 +64,15 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contacts">Contacts</a>
-                    </li>     
+                    </li>
+    
                     <li class="nav-item">
                         <a class="nav-link" href="/article">Articles</a>
                     </li>     
                     <li class="nav-item">
                         <a class="nav-link" href="/article/create">Create articles</a>
-                    </li>     
+                    </li>
+   
                 </ul>
             </div>
             <div class="navbar-nav d-flex justify-content-end">
