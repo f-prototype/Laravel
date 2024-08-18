@@ -63,7 +63,7 @@
                         <a class="nav-link" href="about">About us <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacts">Contacts</a>
+                        <a class="nav-link" href="/contacts">Contacts</a>
                     </li>     
                     <li class="nav-item">
                         <a class="nav-link" href="/article">Articles</a>
@@ -74,12 +74,19 @@
                 </ul>
             </div>
             <div class="navbar-nav d-flex justify-content-end">
+                @guest
                 <li class="nav-item">
-                    <a class="nav-link" href="/signup">SignUp</a>
+                    <a class="nav-link" href="/auth/create">SignUp</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/auth/login">SignIn</a>
-                </li>    
+                </li>
+                @endguest
+                @auth    
+                <li class="nav-item">
+                    <a class="nav-link" href="/auth/logout">Logout</a>
+                </li>
+                @endauth    
             </div>
         </nav>
     </header>
